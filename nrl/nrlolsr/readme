@@ -1,0 +1,10 @@
+See the readme.help file for runtime options.
+
+For installation instructions see readme.install file in directory of 
+system in which you are building code for. 
+
+example:
+For linux see /nrlolsr/unix/readme.install
+
+Any questions or comments please email jdean@itd.nrl.navy.mil  
+Questions about protolib code please direct to adamson@itd.nrl.navy.mil

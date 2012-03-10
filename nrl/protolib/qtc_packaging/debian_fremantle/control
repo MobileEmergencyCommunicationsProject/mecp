@@ -1,0 +1,14 @@
+Source: libprotolib
+Section: lib
+Priority: optional
+Maintainer: David Talmage <talmage@unknown>
+Build-Depends: debhelper (>= 5)
+Standards-Version: 3.7.3
+Homepage: <insert the upstream URL, if relevant>
+
+Package: libprotolib
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Toolkit for developing network protocols and application
+ <insert long description, indented with spaces>
+XB-Maemo-Display-Name: libprotolib

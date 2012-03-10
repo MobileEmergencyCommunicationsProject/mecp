@@ -1,0 +1,5 @@
+Notes about building protolib for Maemo and Meego
+
+1. Some of the protolib examples require libnetfilter-queue1 and
+   libnetfilter-queue-dev
+
