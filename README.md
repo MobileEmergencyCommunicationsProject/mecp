@@ -1,4 +1,5 @@
 mecp
 ====
 
-The Mobile Emergency Communications Project is about group communication using mobile phones. It is a suite of free, open source applicatinons.
+The Mobile Emergency Communications Project is a collection of free, 
+open source applications for communicating under unusual circumstances.
