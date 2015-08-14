@@ -1,0 +1,9 @@
+The Debian Package libqcontactchooserdialog
+----------------------------
+
+libqtcontactchooserdialog is a replacement for the Maemo contact choosing dialog.
+It has all of the features of the original.  In addition, any of the contacts can
+be selected programmatically, that is, prior to displaying the dialog. That isn't
+possible with the standard dialog.
+
+ -- David Talmage <talmage@unknown>  Mon, 01 Aug 2011 13:56:21 -0400

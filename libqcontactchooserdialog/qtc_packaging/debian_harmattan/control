@@ -1,0 +1,15 @@
+Source: libqcontactchooserdialog
+Section: lib
+Priority: optional
+Maintainer: David Talmage <talmage@acm.org>
+Build-Depends: debhelper (>= 5), libqt4-dev
+Standards-Version: 3.7.3
+Homepage: <insert the upstream URL, if relevant>
+
+Package: libqcontactchooserdialog
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: FOSS qt dialog for choosing contacts
+ <insert long description, indented with spaces>
+XSBC-Maemo-Display-Name: libqcontactchooserdialog
+XB-Maemo-Icon-26: 

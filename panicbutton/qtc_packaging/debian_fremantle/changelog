@@ -1,0 +1,6 @@
+panicbutton (0.5.0) unstable; urgency=low
+
+  * The size of panic button text changes when the button is resized (e.g. by a change in handset orientation).
+  * First release that supports Symbian^3.  Tested on a Nokia N8.
+
+ -- David Talmage <talmage@acm.org>  Mon, 16 May 2011 08:10:00 -0400

@@ -1,0 +1,18 @@
+Source: libqcontactchooserdialog
+Section: lib
+Priority: optional
+Maintainer: David Talmage <talmage@acm.org>
+Build-Depends: debhelper (>= 5), libqt4-dev
+Standards-Version: 3.7.3
+Homepage: <insert the upstream URL, if relevant>
+
+Package: libqcontactchooserdialog
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: FOSS qt dialog for choosing contacts
+  libqtcontactchooserdialog is a replacement for the Maemo contact choosing dialog.
+  It has all of the features of the original.  In addition, any of the contacts can
+  be selected programmatically, that is, prior to displaying the dialog. That isn't
+  possible with the standard dialog.
+XB-Maemo-Display-Name: libqcontactchooserdialog
+XB-Maemo-Icon-26: 

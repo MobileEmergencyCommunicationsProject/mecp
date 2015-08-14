@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Panic Button</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="ResizableTextQPushButton" name="panicButton">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Don't Panic!</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuPanic_Button">
+    <property name="title">
+     <string>Panic Button</string>
+    </property>
+    <addaction name="actionAbout_Panic_Button"/>
+    <addaction name="actionChoose_Contacts"/>
+    <addaction name="actionClear_Contacts"/>
+    <addaction name="actionSet_Panic_Message"/>
+    <addaction name="actionSet_GPS_Update_Interval"/>
+    <addaction name="actionDelete_All_Contacts_On_Panic"/>
+    <addaction name="actionRun_Application_On_Panic"/>
+    <addaction name="actionHelp"/>
+   </widget>
+   <addaction name="menuPanic_Button"/>
+  </widget>
+  <action name="actionAbout_Panic_Button">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>About Panic Button</string>
+   </property>
+  </action>
+  <action name="actionChoose_Contacts">
+   <property name="text">
+    <string>Choose Contacts</string>
+   </property>
+  </action>
+  <action name="actionClear_Contacts">
+   <property name="text">
+    <string>Clear Contacts</string>
+   </property>
+  </action>
+  <action name="actionSet_Panic_Message">
+   <property name="text">
+    <string>Set Panic Message</string>
+   </property>
+  </action>
+  <action name="actionSet_GPS_Update_Interval">
+   <property name="text">
+    <string>Set GPS Update Interval</string>
+   </property>
+  </action>
+  <action name="actionDelete_All_Contacts_On_Panic">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Delete All Contacts On Panic</string>
+   </property>
+   <property name="toolTip">
+    <string>Delete All Contacts On Panic</string>
+   </property>
+  </action>
+  <action name="actionRun_Application_On_Panic">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Run Application On Panic</string>
+   </property>
+  </action>
+  <action name="actionHelp">
+   <property name="text">
+    <string>Help</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>ResizableTextQPushButton</class>
+   <extends>QPushButton</extends>
+   <header>resizabletextqpushbutton.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+ <slots>
+  <slot>setContact()</slot>
+ </slots>
+</ui>
